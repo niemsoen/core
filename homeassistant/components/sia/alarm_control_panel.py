@@ -59,7 +59,7 @@ ENTITY_DESCRIPTION_ALARM = SIAAlarmControlPanelEntityDescription(
         "NL": AlarmControlPanelState.ARMED_NIGHT,
         "NE": AlarmControlPanelState.ARMED_NIGHT,
         "NF": AlarmControlPanelState.ARMED_NIGHT,
-        "BR": DISARMED,
+        "BR": AlarmControlPanelState.DISARMED,
     },
 )
 
